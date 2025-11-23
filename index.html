@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学中文 - Học Tiếng Trung Cùng Em ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">
+                <span class="chinese">学中文</span>
+                <span class="vietnamese">Học Tiếng Trung Cùng Ngọc Hương</span>
+            </h1>
+            <p class="subtitle">200 Câu Chuyện Song Ngữ - HSK 3 & HSK 4 ❤️</p>
+        </header>
+
+        <div class="controls">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm câu chuyện...">
+            </div>
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">Tất cả</button>
+                <button class="filter-btn" data-level="HSK3">HSK 3</button>
+                <button class="filter-btn" data-level="HSK4">HSK 4</button>
+                <button class="filter-btn" data-category="daily">Cuộc sống</button>
+                <button class="filter-btn" data-category="love">Tình yêu</button>
+                <button class="filter-btn" data-category="food">Ẩm thực</button>
+                <button class="filter-btn" data-category="travel">Du lịch</button>
+                <button class="filter-btn" data-category="work">Công việc</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-number" id="totalStories">200</div>
+                <div class="stat-label">Câu chuyện</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="learnedCount">0</div>
+                <div class="stat-label">Đã học</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">HSK 3-4</div>
+                <div class="stat-label">Trình độ</div>
+            </div>
+        </div>
+
+        <div class="stories-grid" id="storiesGrid">
+            <!-- Stories will be loaded here by JavaScript 
+    </div>
+
+    <div class="modal" id="storyModal">
+        <div class="modal-content">
+            <button class="close-btn" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <h2 id="modalTitle"></h2>
+                <span class="story-number" id="modalNumber"></span>
+            </div>
+            <div class="modal-body">
+                <div class="story-text">
+                    <div class="text-section chinese-section">
+                        <h3>中文</h3>
+                        <p id="modalChinese"></p>
+                    </div>
+                    <div class="text-section pinyin-section">
+                        <h3>Pinyin</h3>
+                        <p id="modalPinyin"></p>
+                    </div>
+                    <div class="text-section vietnamese-section">
+                        <h3>Tiếng Việt</h3>
+                        <p id="modalVietnamese"></p>
+                    </div>
+                </div>
+                <div class="vocabulary-section">
+                    <h3>📚 Từ vựng quan trọng</h3>
+                    <div id="modalVocabulary" class="vocabulary-list"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="nav-btn" id="prevStory">← Trước</button>
+                <button class="complete-btn" id="markComplete">✓ Đã học xong</button>
+                <button class="nav-btn" id="nextStory">Sau →</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+-->
+        </div>
+
+        <div class="modal" id="storyModal">
+            <div class="modal-content">
+                <span class="close-btn" id="closeModal">&times;</span>
+                <div class="modal-header">
+                    <h2 id="modalTitle"></h2>
+                    <button class="mark-learned-btn" id="markLearnedBtn">
+                        <span class="heart">♥</span> Đã học
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="story-content">
+                        <div class="chinese-text" id="modalChinese"></div>
+                        <div class="pinyin-text" id="modalPinyin"></div>
+                        <div class="vietnamese-text" id="modalVietnamese"></div>
+                    </div>
+                    <div class="vocabulary-section">
+                        <h3>📚 Từ vựng quan trọng</h3>
+                        <div id="vocabularyList"></div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="nav-btn" id="prevStory">← Trước</button>
+                    <button class="nav-btn" id="nextStory">Sau →</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
