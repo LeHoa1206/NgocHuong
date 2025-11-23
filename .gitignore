@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+.DS_Store
+gen.py
+generate_data.py
+data2.js

@@ -1,0 +1,15 @@
+{
+  "name": "hoc-tieng-trung",
+  "version": "1.0.0",
+  "description": "Ứng dụng học tiếng Trung với 200 câu chuyện HSK3-HSK4",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": ["chinese", "learning", "hsk"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
