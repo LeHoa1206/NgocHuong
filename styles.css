@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/hahaa.jpg);
+    background-color: #ecb1b1;
     padding: 20px;
     color: #333;
 }
@@ -478,4 +478,28 @@ body {
         flex-direction: column;
         gap: 15px;
     }
+}
+
+/* Header Navigation */
+.header-nav {
+    margin-top: 20px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background: white;
+    color: #667eea;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.nav-button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    background: #f8f9fa;
 }
